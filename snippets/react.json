@@ -5,7 +5,7 @@
     "body": [
       "import { MgtTemplateProps } from '@microsoft/mgt-react';",
       "",
-      "export const ${1:}: React.FunctionComponent<MgtTemplateProps> = (props: MgtTemplateProps) => {",
+      "export const ${1:TemplateComponent}: React.FunctionComponent<MgtTemplateProps> = (props: MgtTemplateProps) => {",
       "  const { dataContext } = props;",
       "",
       "  return (",
