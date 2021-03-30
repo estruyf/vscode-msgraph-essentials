@@ -1,23 +1,36 @@
 {
-  "name": "vscode-msgraph-toolkit",
-  "displayName": "vscode-msgraph-toolkit",
-  "description": "vscode-msgraph-toolkit",
+  "name": "vscode-msgraph-essentials",
+  "displayName": "Microsoft Graph Essentials",
+  "description": "The Microsoft Graph Essentials extension helps you developing with the Microsoft Graph Toolkit & API.",
+  "publisher": "eliostruyf",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/estruyf/vscode-msgraph-essentials"
+  },
   "version": "0.0.1",
+  "preview": true,
+  "icon": "assets/logo.png",
   "engines": {
     "vscode": "^1.54.0"
   },
   "categories": [
-    "Other"
+    "Other",
+    "Snippets",
+    "Extension Packs"
+  ],
+  "extensionDependencies": [
+    "eliostruyf.vscode-msgraph-autocomplete"
   ],
   "activationEvents": [
-    "onCommand:vscode-msgraph-toolkit.helloWorld"
+    "*"
   ],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
+    "snippets": [
       {
-        "command": "vscode-msgraph-toolkit.helloWorld",
-        "title": "Hello World"
+        "language": "typescriptreact",
+        "path": "./snippets/react.json"
       }
     ]
   },

@@ -1,0 +1,19 @@
+{
+  "React Component": {
+    "prefix": "mgt-react-tmp",
+    "description": "Create a new MGT React template component",
+    "body": [
+      "import { MgtTemplateProps } from '@microsoft/mgt-react';",
+      "",
+      "export const ${1:}: React.FunctionComponent<MgtTemplateProps> = (props: MgtTemplateProps) => {",
+      "  const { dataContext } = props;",
+      "",
+      "  return (",
+      "    <>",
+      "      ${2:}",
+      "    </>",
+      "  );",
+      "}"
+    ]
+  }
+}
