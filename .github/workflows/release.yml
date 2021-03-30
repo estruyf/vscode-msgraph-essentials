@@ -23,12 +23,6 @@ jobs:
       - name: Install vsce
         run: npm i -g vsce
 
-      - name: Test API
-        run: npm run test:api
-
-      - name: Populate cache
-        run: node ./scripts/populate-cache.js
-
       - name: Publish
         run: vsce publish -p ${{ secrets.VSCE_PAT }}
 
