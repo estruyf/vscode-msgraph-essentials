@@ -51,11 +51,11 @@ Snippets to insert the MGT web component in HTML:
 | Snippet |
 |---------|
 | `mgt-agenda` |
-| `mgt-login` |
 | `mgt-people` |
 | `mgt-people-picker` |
-| `mgt-person` |
+| `mgt-login` |
 | `mgt-person-card` |
+| `mgt-person` |
 | `mgt-tasks` |
 | `mgt-teams-channel-picker` |
 
@@ -66,11 +66,11 @@ Snippets to quickly modify the component styles:
 | Snippet |
 |---------|
 | `mgt-agenda` |
-| `mgt-login` |
 | `mgt-people` |
 | `mgt-people-picker` |
-| `mgt-person` |
+| `mgt-login` |
 | `mgt-person-card` |
+| `mgt-person` |
 | `mgt-tasks` |
 | `mgt-teams-channel-picker` |
 
