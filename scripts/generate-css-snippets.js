@@ -100,8 +100,8 @@ const readmePath = '../README.md';
     let mdContent = fs.readFileSync(tmplPath, { encoding: "utf-8" });
     
     if (mdContent) {
-      mdContent = mdContent.replace(`{HTML_SNIPPETS}`, uniqComponents.map(c => `| ${c} |`).join(`\n`));
-      mdContent = mdContent.replace(`{CSS_SNIPPETS}`, uniqComponents.map(c => `| ${c} |`).join(`\n`));
+      mdContent = mdContent.replace(`{HTML_SNIPPETS}`, uniqComponents.map(c => `| \`${c}\` |`).join(`\n`));
+      mdContent = mdContent.replace(`{CSS_SNIPPETS}`, uniqComponents.map(c => `| \`${c}\` |`).join(`\n`));
       fs.writeFileSync(mdPath, mdContent, { encoding: "utf-8"})
     }
   }

@@ -50,14 +50,14 @@ Snippets to insert the MGT web component in HTML:
 
 | Snippet |
 |---------|
-| mgt-agenda |
-| mgt-people |
-| mgt-login |
-| mgt-people-picker |
-| mgt-person |
-| mgt-person-card |
-| mgt-tasks |
-| mgt-teams-channel-picker |
+| `mgt-agenda` |
+| `mgt-login` |
+| `mgt-people` |
+| `mgt-people-picker` |
+| `mgt-person` |
+| `mgt-person-card` |
+| `mgt-tasks` |
+| `mgt-teams-channel-picker` |
 
 ### CSS
 
@@ -65,14 +65,14 @@ Snippets to quickly modify the component styles:
 
 | Snippet |
 |---------|
-| mgt-agenda |
-| mgt-people |
-| mgt-login |
-| mgt-people-picker |
-| mgt-person |
-| mgt-person-card |
-| mgt-tasks |
-| mgt-teams-channel-picker |
+| `mgt-agenda` |
+| `mgt-login` |
+| `mgt-people` |
+| `mgt-people-picker` |
+| `mgt-person` |
+| `mgt-person-card` |
+| `mgt-tasks` |
+| `mgt-teams-channel-picker` |
 
 ## Changelog
 

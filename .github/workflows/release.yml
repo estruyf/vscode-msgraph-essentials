@@ -20,10 +20,10 @@ jobs:
       - name: Install the dependencies
         run: npm i
         
-      - name: Clone the toolkit
-        run: |
-          git clone https://github.com/microsoftgraph/microsoft-graph-toolkit
-          npm run snippets
+      # - name: Clone the toolkit
+      #   run: |
+      #     git clone https://github.com/microsoftgraph/microsoft-graph-toolkit
+      #     npm run snippets
 
       - name: Install vsce
         run: npm i -g vsce
