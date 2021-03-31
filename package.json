@@ -31,6 +31,26 @@
       {
         "language": "typescriptreact",
         "path": "./snippets/react.json"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/css.components.json"
+      },
+      {
+        "language": "less",
+        "path": "./snippets/css.components.json"
+      },
+      {
+        "language": "scss",
+        "path": "./snippets/css.components.json"
+      },
+      {
+        "language": "postcss",
+        "path": "./snippets/css.components.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html.components.json"
       }
     ]
   },
@@ -40,16 +60,24 @@
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src --ext ts",
-    "test": "node ./out/test/runTest.js"
+    "test": "node ./out/test/runTest.js",
+    "snippets": "node ./scripts/generate-css-snippets.js > test.log"
   },
   "devDependencies": {
+    "@babel/parser": "7.13.13",
+    "@babel/plugin-proposal-decorators": "7.13.5",
+    "@babel/plugin-transform-typescript": "7.13.0",
+    "@babel/preset-flow": "7.13.13",
     "@types/glob": "^7.1.3",
     "@types/mocha": "^8.0.4",
     "@types/node": "^12.11.7",
     "@types/vscode": "^1.54.0",
     "@typescript-eslint/eslint-plugin": "^4.14.1",
     "@typescript-eslint/parser": "^4.14.1",
+    "doctrine": "3.0.0",
     "eslint": "^7.19.0",
+    "espree": "7.3.1",
+    "fast-glob": "3.2.5",
     "glob": "^7.1.6",
     "mocha": "^8.2.1",
     "typescript": "^4.1.3",
