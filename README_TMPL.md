@@ -67,3 +67,9 @@ See the [changelog](./CHANGELOG.md) for the latest changes.
 ## Feedback and snippet ideas
 
 Feedback and/or ideas are always welcome. Please submit them via creating an issue in the extension repository: [issue list](https://github.com/estruyf/vscode-msgraph-essentials/issues).
+
+<p align="center">
+  <a href="#">
+      <img src="https://estruyf-github.azurewebsites.net/api/VisitorHit?user=estruyf&repo=vscode-msgraph-essentials&countColor=%23161938" />
+   </a>
+</p>

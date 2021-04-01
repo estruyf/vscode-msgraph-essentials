@@ -66,7 +66,7 @@ const readmePath = '../README.md';
   fs.writeFileSync(path.join(__dirname, '../src/css.variables.json'), JSON.stringify(cssVariables), { encoding: "utf-8" });
 
   // Create the snippet files
-  const uniqComponents = [...new Set(components)];
+  const uniqComponents = [...new Set(components)].sort();
 
   const cssSnippets = {};
   for (const component of uniqComponents) {
