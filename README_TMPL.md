@@ -18,9 +18,11 @@
 
 The Microsoft Graph Essentials extension helps you developing with the Microsoft Graph Toolkit & API.
 
-## Autocompletion for CSS variabls
+## Autocompletion for CSS variables and HTML attributes
 
-The extension gives you autocompletion for all the CSS variables which are used to customize the styling of the MGT web components.
+The extension gives you autocompletion for all the CSS variables and HTML web component attributes.
+
+The **CSS variables** are used to customize the styling of the MGT web components.
 
 Example:
 
@@ -35,6 +37,17 @@ mgt-person {
 Using is as simple as starting to type `--`, and the extension will show you all the options.
 
 ![](./assets/css-variables.png)
+
+The **HTML attributes** suggestions will automatically appear when using any of the `mgt` components in HTML files.
+
+![](./assets/html-attributes.png)
+
+## Commands
+
+Currently the extension has the following commands you can use:
+
+- **MS Graph: Open API documentation site** (`msgraph.essentials.openDocs`)
+- **MS Graph: Open Graph Explorer site** (`msgraph.essentials.openGraphExplorer`) 
 
 ## Snippets
 

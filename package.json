@@ -23,10 +23,22 @@
     "eliostruyf.vscode-msgraph-autocomplete"
   ],
   "activationEvents": [
-    "*"
+    "*",
+		"onCommand:msgraph.essentials.openDocs",
+		"onCommand:msgraph.essentials.openGraphExplorer"
   ],
   "main": "./out/extension.js",
   "contributes": {
+    "commands": [
+			{
+				"command": "msgraph.essentials.openDocs",
+				"title": "MS Graph: Open API documentation site"
+			},
+			{
+				"command": "msgraph.essentials.openGraphExplorer",
+				"title": "MS Graph: Open Graph Explorer site"
+			}
+		],
     "snippets": [
       {
         "language": "typescriptreact",

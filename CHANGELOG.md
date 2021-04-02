@@ -2,6 +2,11 @@
 
 All notable changes to the "vscode-msgraph-essentials" extension will be documented in this file.
 
+## [0.0.5]
+
+- Command added to open the Microsoft Graph API documenation
+- Command added to open the Graph Explorer website
+
 ## [0.0.4]
 
 - Added HTML web component autocompletion support for attributes

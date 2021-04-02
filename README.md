@@ -42,6 +42,13 @@ The **HTML attributes** suggestions will automatically appear when using any of 
 
 ![](./assets/html-attributes.png)
 
+## Commands
+
+Currently the extension has the following commands you can use:
+
+- **MS Graph: Open API documentation site** (`msgraph.essentials.openDocs`)
+- **MS Graph: Open Graph Explorer site** (`msgraph.essentials.openGraphExplorer`) 
+
 ## Snippets
 
 ### React
