@@ -1,0 +1,42 @@
+[
+  {
+    "attribute": "date",
+    "property": "date",
+    "description": "A string that represents the start date of the events to fetch from Microsoft Graph. Value should be in a format that can be parsed by the Date constructor - value has no effect if event-query attribute is set."
+  },
+  {
+    "attribute": "days",
+    "property": "days",
+    "description": "A number of days to fetch from Microsoft Graph - default is 3 - value has no effect if event-query attribute is set."
+  },
+  {
+    "attribute": "show-max",
+    "property": "showMax",
+    "description": "A number to indicate the maximum number of events to show. The default value is not set (no maximum)."
+  },
+  {
+    "attribute": "group-id",
+    "property": "groupId",
+    "description": "A string ID for a group calendar to use instead of the current signed in user's calendar."
+  },
+  {
+    "attribute": "event-query",
+    "property": "eventQuery",
+    "description": "A string that represents an alternative query to be used when fetching events from Microsoft Graph. Optionally, add the delegated scope at the end of the string by delimiting it with `"
+  },
+  {
+    "attribute": "events",
+    "property": "events",
+    "description": "An array of events to get or set the list of events rendered by the component - use this property to access the events loaded by the component. Set this value to load your own events - if value is set by developer, the date, days, or event-query attributes have no effect."
+  },
+  {
+    "attribute": "group-by-day",
+    "property": "groupByDay",
+    "description": "A Boolean value to group events by day - by default events are not grouped."
+  },
+  {
+    "attribute": "preferred-timezone",
+    "property": "preferredTimezone",
+    "description": "Name of the preferred time zone to use when retrieving events from Microsoft Graph; for example, Pacific Standard Time. By default, this attribute uses the UTC time zone. The preferred time zone for the current user can be retrieved by calling the me/mailboxSettings endpoint and reading the value of the timeZone property."
+  }
+]

@@ -6,6 +6,15 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
+			"name": "Run HTML Snippet",
+			"program": "${workspaceFolder}/scripts/generate-html-snippets.js",
+			"request": "launch",
+			"skipFiles": [
+				"<node_internals>/**"
+			],
+			"type": "pwa-node"
+		},
+		{
 			"name": "Run CSS Snippet",
 			"program": "${workspaceFolder}/scripts/generate-css-snippets.js",
 			"request": "launch",

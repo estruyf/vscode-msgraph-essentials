@@ -1,0 +1,57 @@
+[
+  {
+    "attribute": "show-max",
+    "property": "showMax",
+    "description": "A number value to indicate the maximum number of people to show. the default value is 6."
+  },
+  {
+    "attribute": "group-id",
+    "property": "groupId",
+    "description": "A string value that belongs to a Microsoft Graph defined group for further filtering of the search results."
+  },
+  {
+    "attribute": "type",
+    "property": "type",
+    "description": "The type of entities to search for. Available options are: person, group, any. Default value is person. This attribute has no effect if group-id property is set."
+  },
+  {
+    "attribute": "transitive-search",
+    "property": "transitiveSearch",
+    "description": "A Boolean value to perform a transitive search returning a flat list of all nested members - by default transitive search is not used."
+  },
+  {
+    "attribute": "group-type",
+    "property": "groupType",
+    "description": "The group type to search for. Available options are: unified, security, mailenabledsecurity, distribution, any. Default value is any. This attribute has no effect if the type property is set to person."
+  },
+  {
+    "attribute": "selected-people",
+    "property": "selectedPeople",
+    "description": "An array of selected people. Set this value to select people programmatically."
+  },
+  {
+    "attribute": "people",
+    "property": "people",
+    "description": "An array of people found and rendered in the search result"
+  },
+  {
+    "attribute": "placeholder",
+    "property": "placeholder",
+    "description": "The default text that appears to explain how to use the component. Default value is Start typing a name."
+  },
+  {
+    "attribute": "default-selected-user-ids",
+    "property": "defaultSelectedUserIds",
+    "description": "When provided a string of comma-separated Microsoft Graph user IDs, the component renders the respective users as selected upon initialization."
+  },
+  {
+    "attribute": "selection-mode",
+    "property": "selectionMode",
+    "description": "Used to indicate whether to allow selecting multiple items (users or groups) or just a single item. Available options are: single, multiple. Default value is multiple."
+  },
+  {
+    "attribute": "disabled",
+    "property": "disabled",
+    "description": "Sets whether the people picker is disabled. When disabled, the user is not able to search or select people."
+  }
+]

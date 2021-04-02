@@ -61,7 +61,7 @@
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src --ext ts",
     "test": "node ./out/test/runTest.js",
-    "snippets": "node ./scripts/generate-css-snippets.js"
+    "snippets": "node ./scripts/generate-css-snippets.js && node ./scripts/generate-html-snippets.js"
   },
   "devDependencies": {
     "@babel/parser": "7.13.13",
@@ -71,11 +71,13 @@
     "@types/vscode": "^1.54.0",
     "@typescript-eslint/eslint-plugin": "^4.14.1",
     "@typescript-eslint/parser": "^4.14.1",
+    "cheerio": "1.0.0-rc.5",
     "doctrine": "3.0.0",
     "eslint": "^7.19.0",
     "fast-glob": "3.2.5",
     "glob": "^7.1.6",
     "mocha": "^8.2.1",
+    "node-fetch": "2.6.1",
     "typescript": "^4.1.3",
     "vscode-test": "^1.5.0"
   }

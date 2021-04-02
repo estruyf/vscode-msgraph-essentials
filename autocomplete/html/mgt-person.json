@@ -1,0 +1,67 @@
+[
+  {
+    "attribute": "user-id",
+    "property": "userId",
+    "description": "Set to a user id to fetch that user's details and image from Microsoft Graph."
+  },
+  {
+    "attribute": "person-query",
+    "property": "personQuery",
+    "description": "Set to a name or email of a person to search for a person in Microsoft Graph and fetch the first person's details and image."
+  },
+  {
+    "attribute": "person-details",
+    "property": "personDetails",
+    "description": "Set to an object representing a person. Works with object from the people, users, contacts, or group, resources."
+  },
+  {
+    "attribute": "fallback-details",
+    "property": "fallbackDetails",
+    "description": "Set to an object representing a person when no user/person/contact is found in the graph."
+  },
+  {
+    "attribute": "person-image",
+    "property": "personImage",
+    "description": "Set the image to show for the person."
+  },
+  {
+    "attribute": "person-presence",
+    "property": "personPresence",
+    "description": "Set the presence for the person."
+  },
+  {
+    "attribute": "fetch-image",
+    "property": "fetchImage",
+    "description": "Set flag to fetch personImage automatically from Microsoft Graph based on the personDetails object provided by the user."
+  },
+  {
+    "attribute": "avatar-type",
+    "property": "avatarType",
+    "description": "Set to initials or photo to render either display state - default is photo."
+  },
+  {
+    "attribute": "view",
+    "property": "view",
+    "description": "Set to control how the person is rendered. Default is avatar  avatar - show only avatar  oneline - show avatar and first line (displayName by default)  twolines - show avatar and two lines of text (displayName and mail by default)"
+  },
+  {
+    "attribute": "line1-property",
+    "property": "line1Property",
+    "description": "Sets the property of the personDetails to use for the first line of text. Default is displayName."
+  },
+  {
+    "attribute": "line2-property",
+    "property": "line2Property",
+    "description": "Sets the property of the personDetails to use for the second line of text. Default is mail."
+  },
+  {
+    "attribute": "line3-property",
+    "property": "line3Property",
+    "description": "Sets the property of the personDetails to use for the third line of text. Default is jobTitle."
+  },
+  {
+    "attribute": "show-presence",
+    "property": "showPresence",
+    "description": "Set flag to display person presence - default is false."
+  }
+]

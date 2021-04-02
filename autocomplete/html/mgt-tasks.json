@@ -1,0 +1,42 @@
+[
+  {
+    "attribute": "read-only",
+    "property": "readOnly",
+    "description": "A Boolean to set the task interface to be read only (no adding or removing tasks). Default is false."
+  },
+  {
+    "attribute": "hide-header",
+    "property": "hideHeader",
+    "description": "A Boolean to show or hide the header of the component. Default is false."
+  },
+  {
+    "attribute": "hide-options",
+    "property": "hideOptions",
+    "description": "A Boolean to show or hide the options in tasks. Default is false."
+  },
+  {
+    "attribute": "initial-id=\"planner_id/folder_id\"",
+    "property": "initialId",
+    "description": "A string ID to set the initially displayed planner or folder to the provided ID."
+  },
+  {
+    "attribute": "initial-bucket-id=\"bucket_id\"",
+    "property": "initialBucketId",
+    "description": "A string ID to set the initially displayed bucket (Planner Data-Source Only) to the provided ID."
+  },
+  {
+    "attribute": "target-id=\"planner_id/folder_id\"",
+    "property": "targetId",
+    "description": "A string ID to lock the tasks interface to the provided planner or folder ID."
+  },
+  {
+    "attribute": "target-bucket-id=\"bucket_id\"",
+    "property": "targetBucketId",
+    "description": "A string ID to lock the tasks interface to the provided bucket ID (Planner Data-Source Only)."
+  },
+  {
+    "attribute": "group-id",
+    "property": "groupId",
+    "description": "A string ID to lock the tasks interface to the group ID."
+  }
+]

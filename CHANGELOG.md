@@ -2,6 +2,10 @@
 
 All notable changes to the "vscode-msgraph-essentials" extension will be documented in this file.
 
+## [0.0.4]
+
+- Added HTML web component autocompletion support for attributes
+
 ## [0.0.3]
 
 - CSS snippets added for quickly changing component styles

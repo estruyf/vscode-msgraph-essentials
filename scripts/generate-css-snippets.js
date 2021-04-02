@@ -63,7 +63,7 @@ const readmePath = '../README.md';
   }
 
   // Create the variables file for autocomplete
-  fs.writeFileSync(path.join(__dirname, '../src/css.variables.json'), JSON.stringify(cssVariables), { encoding: "utf-8" });
+  fs.writeFileSync(path.join(__dirname, '../src/autocomplete/css/css.variables.json'), JSON.stringify(cssVariables), { encoding: "utf-8" });
 
   // Create the snippet files
   const uniqComponents = [...new Set(components)].sort();

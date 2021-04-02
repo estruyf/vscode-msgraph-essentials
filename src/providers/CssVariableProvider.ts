@@ -1,4 +1,4 @@
-import snippets = require('../css.variables.json');
+import snippets = require('../autocomplete/css/css.variables.json');
 import { CancellationToken, CompletionItem, CompletionItemKind, CompletionItemProvider, ExtensionContext, MarkdownString, Position, TextDocument } from 'vscode';
 import { CssSnippet } from '../models/CssSnippet';
 

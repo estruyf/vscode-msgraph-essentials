@@ -1,8 +1,9 @@
 import * as vscode from 'vscode';
 import { CssVariableProvider } from './providers/CssVariableProvider';
+import { HtmlVariableProvider } from './providers/HtmlVariableProvider';
 
 export function activate(context: vscode.ExtensionContext) {
-	const provider = vscode.languages.registerCompletionItemProvider([
+	const cssProvider = vscode.languages.registerCompletionItemProvider([
 		{ language: 'css' },
 		{ language: 'less' },
 		{ language: 'scss' },
@@ -12,7 +13,13 @@ export function activate(context: vscode.ExtensionContext) {
 		{ language: 'postcss' },
 	], new CssVariableProvider(context), '-');
 
-	context.subscriptions.push(provider);
+	context.subscriptions.push(cssProvider);
+	
+	const htmlProvider = vscode.languages.registerCompletionItemProvider([
+		{ language: 'html' }
+	], new HtmlVariableProvider(context), " ");
+
+	context.subscriptions.push(htmlProvider);
 
 	console.log(`vscode-msgraph-essentials activated`);
 }

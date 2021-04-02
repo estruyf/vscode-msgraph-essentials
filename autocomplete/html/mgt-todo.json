@@ -1,0 +1,27 @@
+[
+  {
+    "attribute": "read-only",
+    "property": "readOnly",
+    "description": "A Boolean to set the task interface to be read only (no adding or removing tasks). Default is false."
+  },
+  {
+    "attribute": "hide-header",
+    "property": "hideHeader",
+    "description": "A Boolean to show or hide the header of the component. Default is false."
+  },
+  {
+    "attribute": "hide-options",
+    "property": "hideOptions",
+    "description": "A Boolean to show or hide the options in tasks. Default is false."
+  },
+  {
+    "attribute": "initial-id=\"folder_id\"",
+    "property": "initialId",
+    "description": "A string ID to set the initially displayed folder to the provided ID."
+  },
+  {
+    "attribute": "target-id=\"folder_id\"",
+    "property": "targetId",
+    "description": "A string ID to lock the tasks interface to the provided folder ID."
+  }
+]
